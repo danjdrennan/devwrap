@@ -21,3 +21,9 @@ all satisfied, the repo code can be run as
 pip install -e .
 pytest
 ```
+
+The pytorch forums[^1] and test suite[^2] inspired this pattern.
+
+[^1]: https://discuss.pytorch.org/t/context-manager-for-dtype-and-device/73827
+
+[^2]: https://github.com/pytorch/pytorch/blob/463f7920bd45b522b4675663656873fa9689cab0/test/test_type_promotion.py#L17-L29
