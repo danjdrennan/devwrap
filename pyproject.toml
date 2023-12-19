@@ -1,0 +1,20 @@
+[project]
+name = "devwrap"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Dan Drennan", email = "danjdrennan@gmail.com"},
+]
+dependencies = [
+    "torch>=2.1.2",
+    "numpy>=1.26.2",
+    "ipython>=8.18.1",
+    "pytest>=7.4.3",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+package-type = "application"
